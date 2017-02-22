@@ -1,0 +1,18 @@
+{
+  "name": "promises",
+  "version": "0.1.0",
+  "description": "Test how promises behave",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --watch --bail ./main.js || exit 0"
+  },
+  "author": "Perry L Miller IV",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
