@@ -4,6 +4,9 @@ module.exports = {
     "commonjs": true,
     "node": true
   },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
   "extends": [
     "eslint:recommended"
   ],
@@ -15,4 +18,12 @@ module.exports = {
     "no-console": "off",
     "no-unused-vars": [ "error", { "args": "none" } ]
   },
+  "globals": {
+    "Int16Array": true,
+    "Int32Array": true,
+    "Uint16Array": true,
+    "Uint32Array": true,
+    "Float32Array": true,
+    "Float64Array": true
+  }
 };
