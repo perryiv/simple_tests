@@ -1,0 +1,19 @@
+{
+  "name": "message_pack",
+  "version": "0.1.0",
+  "description": "Test how MessagePack behaves",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --watch --bail ./main.js || exit 0"
+  },
+  "author": "Perry L Miller IV",
+  "license": "MIT",
+  "dependencies": {
+    "msgpack5": "^3.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-roughly": "^1.0.0",
+    "mocha": "^4.0.1"
+  }
+}
